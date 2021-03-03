@@ -19,7 +19,7 @@
 		rst: behavior_tap_hold1 {
 			compatible = "zmk,behavior-hold-tap";
 			label = "Bootloader Tap - Reset Hold";
-			#binding-cells = <0>;
+			#binding-cells = <2>;
 			tapping_term_ms = <200>;
             flavor = "balanced";
 			bindings = <&reset>, <&bootloader>;
